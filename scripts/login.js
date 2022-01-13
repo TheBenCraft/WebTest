@@ -69,7 +69,7 @@ function getInfo() {
     for(i = 0; i < objPeople.length; i++) {
         if(username == objPeople[i].username && password == objPeople[i].password) {
             console.log(username + " is logged in");
-            window.location.href = "http://127.0.0.1:5500"
+            window.location.href = "https://thebencrafti.github.io/WebTest"
             return
         }
     }
